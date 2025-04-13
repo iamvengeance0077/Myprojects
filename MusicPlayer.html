@@ -14,7 +14,7 @@
 
         <div class="header">
                 <div class="settings head">
-                <button>
+                <button  onclick="settingsnav()">
                     <img src="setting.png"></div>
                 </button>  
                 <div class="header-logo head">
@@ -27,8 +27,8 @@
                 </div>
         </div>  
         <div class="navbar">
-            <button class="nav allmusicnav">All music<img src="all.png"></button>
-            <button class="nav">Favorites<img src="fav.png"></button>
+            <button class="nav allmusicnav" >All music<img src="all.png"></button>
+            <a class="favlink" href="Favorites.html"><button class="nav favnav">Favorites<img src="fav.png"></button></a>
         </div>
         
         <div class="main">
@@ -259,7 +259,7 @@
                     </button>
                 </div>
                 <div class="playicon">
-                    <button>
+                    <button onclick="playaudio()">
                         <img class="play" src="play.png">
                       </button>
                 </div>
@@ -274,6 +274,14 @@
             </div>
           </div>
         </div>
+            <div class="settingsoption">
+                
+                    <button>Profile</button>
+                    <button>Settings</button>
+                    
+              </div>
+              <button class="closebutton" onclick="closesettingsnav()">X</button>
+              
         <script src="Music.js"></script>
     </body>
 </html>

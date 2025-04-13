@@ -2,7 +2,6 @@
     margin:0;
     padding:0;
     
-    
 }
 body{
     padding-left: 150px;
@@ -259,14 +258,14 @@ svg{
 }
 .allmusicnav{
     margin-top: 12px;
-    background-color: grey;
-}
-
-.favnav{
     background-color: transparent;
 }
 
-.favlink{
+.favnav{
+    background-color: grey;
+}
+
+.allmusiclink{
     text-decoration: none;
 }
 
@@ -371,44 +370,38 @@ svg{
     cursor: default;
 }
 
-
 .settingsoption{
-   background-color: white;
-   display: flex;
-   flex-direction: column;
-   position: fixed;
-   left:0;
-   top:0;
-   bottom: 0;
-   z-index: 0;
-   width:140px;
-   border-right: 1px solid white;
-   box-shadow:  2px 2px 10px black;
-   
-
-}
-
-.settingsoption button{
     background-color: white;
-    width:160px;
-    height: 50px;
-    border:none;
-    margin-left: -20px;
-    font-size:16px;
-    font-weight: bold;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding-left: 25px;
-
-}
-
-.closebutton{
-    position: absolute;
-    top:5px;
+    flex-direction: column;
+    position: fixed;
+    left:0;
+    top:0;
+    bottom: 0;
     z-index: 0;
-    width:40px;
-    border-radius: 10px;
-    border: 1px solid grey;
-    background-color: grey;
+    width:140px;
+    border-right: 1px solid white;
+    box-shadow:  2px 2px 10px black;
+    
+ 
+ }
+ 
+ .settingsoption button{
+     background-color: white;
+     width:160px;
+     height: 50px;
+     border:none;
+     margin-left: -20px;
+     font-size:16px;
+     font-weight: bold;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     padding-left: 25px;
+ 
+ }
+ .closebutton{
+    position: absolute;
+    top:0;
+    z-index: 0;
 }
